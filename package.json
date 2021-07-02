@@ -1,3 +1,10 @@
 {
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.1.4",
+    "text-transform-loader": "^2.0.0",
+    "vue-loader": "^16.3.0",
+    "webpack": "^5.42.0",
+    "webpack-cli": "^3.3.12"
+  }
 }
