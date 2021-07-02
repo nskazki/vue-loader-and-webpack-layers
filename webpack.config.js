@@ -1,3 +1,5 @@
+const { VueLoaderPlugin } = require('vue-loader')
+
 module.exports = [{
   mode: 'production',
   entry: {
@@ -9,6 +11,9 @@ module.exports = [{
   experiments: {
     layers: true
   },
+  plugins: [
+    new VueLoaderPlugin()
+  ],
   module: {
     rules: [{
       issuerLayer: 'need-neat-prefix',
