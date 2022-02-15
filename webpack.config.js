@@ -11,9 +11,9 @@ module.exports = [{
   experiments: {
     layers: true
   },
-  // plugins: [
-  //   new VueLoaderPlugin()
-  // ],
+  plugins: [
+    new VueLoaderPlugin()
+  ],
   module: {
     rules: [{
       issuerLayer: 'need-neat-prefix',

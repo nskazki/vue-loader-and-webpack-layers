@@ -9,7 +9,7 @@ https://github.com/vuejs/vue-loader/issues/1849 - `vue-loader@16` patches Webpac
 # How to Reproduce
 
 1. cd into the cloned repo, run `npm run build`, get an error
-2. checkout to `b6f647c` where Vue Plugin isn't being used, run `npm run build`, get a compiled bundle
+2. checkout to `040fe39` where Vue Plugin isn't being used, run `npm run build`, get a compiled bundle
 
 ## The Outcome
 
