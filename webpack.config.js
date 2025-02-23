@@ -23,6 +23,9 @@ module.exports = [{
           prependText: 'console.info("neat prefix!");'
         }
       }]
+    }, {
+      test: /\.vue/,
+      loader: 'vue-loader'
     }]
   }
 }]

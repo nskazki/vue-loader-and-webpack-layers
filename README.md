@@ -1,3 +1,7 @@
+# UPD
+
+The issue isn't present in vue-loader@17
+
 # Issue
 
 https://github.com/vuejs/vue-loader/issues/1849 - `vue-loader@16` patches Webpack in a way that prevents the usage of Webpack's layers.
